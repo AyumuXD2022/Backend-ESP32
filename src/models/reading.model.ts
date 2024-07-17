@@ -15,7 +15,7 @@ const readingSchema: Schema = new Schema({
     },
     date: {
         type: Date,
-        default: Date.now(),
+        default: Date.now() - 21600000,
     },
 }, { collection: 'sensor' })
 
