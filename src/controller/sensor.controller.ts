@@ -10,6 +10,7 @@ export default class SensorController {
     constructor() {
         this.mongodb = MongoConn.instance;
     }
+    
 
     async findAllSensors(): Promise<IResponse> {
         try {
