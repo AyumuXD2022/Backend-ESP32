@@ -1,0 +1,30 @@
+{
+  "name": "backend-esp32",
+  "version": "0.0.1",
+  "description": "Connection with ESP32 and save information in time real",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "author": "Gerardo Ortega",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/config": "^3.3.4",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.96",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "config": "^3.3.12",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "js-yaml": "^4.1.0",
+    "mongoose": "^8.5.1",
+    "pino": "^9.3.1",
+    "pino-pretty": "^11.2.1"
+  }
+}
